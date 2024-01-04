@@ -9,7 +9,7 @@ function ProjectsCard({ projects }) {
   return (
     <a href={projects.page} target="_blank">
       <article
-        className="w-[576px]  flex gap-2 justify-start rounded-md hover:bg-[#ffffff08] mb-8"
+        className="lg:w-[576px]  flex gap-2 justify-start rounded-md hover:bg-[#ffffff08] mb-8 sm:w-full"
         onMouseOver={() => setHover(true)}
         onMouseOut={() => setHover(false)}>
         <figure className=" w-[120px] h-[70px] m-2 ">
@@ -19,7 +19,7 @@ function ProjectsCard({ projects }) {
             className="rounded-sm"
           />
         </figure>
-        <div>
+        <div className="sm:w-full">
           <div className="flex items-center gap-1">
             <h3
               className={`${
@@ -36,7 +36,7 @@ function ProjectsCard({ projects }) {
               />
             </span>
           </div>
-          <p className="w-[392px] h-[118px] text-white">
+          <p className="lg:w-[392px] sm:w-full h-[118px] text-white">
             {projects.description}
           </p>
           <div className="flex gap-2">

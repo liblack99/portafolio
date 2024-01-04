@@ -1,7 +1,11 @@
 import React from "react";
 
 function Main({ children }) {
-  return <div className="w-[578px] flex flex-col items-center">{children}</div>;
+  return (
+    <div className="lg:w-[578px] flex flex-col items-center sm:w-full">
+      {children}
+    </div>
+  );
 }
 
 export default Main;

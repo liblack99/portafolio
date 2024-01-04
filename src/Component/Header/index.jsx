@@ -22,7 +22,7 @@ function Header() {
 
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
-      <div className="fixed">
+      <div className="fixed sm:relative sm:w-full">
         <div className="flex flex-col gap-4">
           <h1 className="text-5xl font-bold text-[white]">Andres Negrette</h1>
           <h2 className="text-2xl text-[white] mt-2">
@@ -33,7 +33,7 @@ function Header() {
             web.
           </p>
         </div>
-        <div className="w-[200px] overflow-hidden mt-[60px]">
+        <div className="w-[200px] overflow-hidden mt-[60px] sm:hidden lg:block">
           <ul className="flex flex-col gap-4">
             <li>
               <a

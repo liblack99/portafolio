@@ -3,9 +3,10 @@ import React from "react";
 function About() {
   return (
     <section
-      className="flex w-[100%] min-w-[400px] pt-[100px] items-center justify-center"
+      className="flex w-[100%] min-w-[400px] pt-[100px] flex-col  justify-center sm:min-w-full"
       id="about">
-      <p className="text-white ">
+      <h2 className="text-3xl mb-4 text-white lg:hidden sm:block">Sobre mi</h2>
+      <p className="text-white sm:w-full ">
         Soy un entusiasta del desarrollo web con un enfoque en la parte
         frontend. Aunque aún no tengo experiencia laboral profesional, mi
         entusiasmo y dedicación por aprender y crecer en el mundo de la

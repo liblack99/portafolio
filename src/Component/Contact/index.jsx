@@ -26,7 +26,8 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="pt-[120px] flex flex-col w-[80%] mb-[100px]">
+      className="pt-[120px] flex flex-col w-[100%] mb-[100px]">
+      <h2 className="text-3xl mb-8 text-white lg:hidden sm:block">Contacto</h2>
       <form
         onSubmit={handleSubmit}
         className="flex flex-col justify-center  gap-4">
@@ -60,7 +61,7 @@ function Contact() {
         <textarea
           id="message"
           name="message"
-          className="rounded-md bg-[#193756] h-[100px] p-4 focus:outline-none"
+          className="rounded-md bg-[#193756] h-[100px] p-4 focus:outline-none sm:h-[200px]"
         />
         <ValidationError
           prefix="Mensaje"
