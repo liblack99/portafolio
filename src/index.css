@@ -6,7 +6,7 @@ body {
   background-color: #0f172a;
 }
 html {
-  font-family: "Inter", sans-serif;
+  font-family: "Onest Variable", sans-serif;
 }
 
 .hoverProject {
@@ -77,4 +77,14 @@ html {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   z-index: 10000;
+}
+
+@media (min-width: 360px) {
+  .ssm {
+    display: flex;
+    flex-direction: column;
+  }
+  .ssm_anchor {
+    display: none;
+  }
 }

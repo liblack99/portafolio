@@ -21,19 +21,19 @@ function Header() {
   };
 
   return (
-    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
-      <div className="fixed sm:relative sm:w-full">
+    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 font-onest">
+      <div className="lg:fixed md:relative sm:relative">
         <div className="flex flex-col gap-4">
           <h1 className="text-5xl font-bold text-[white]">Andres Negrette</h1>
           <h2 className="text-2xl text-[white] mt-2">
-            Desarrollador Front-Ent
+            Desarrollador Front-End
           </h2>
           <p className="text-white mt-4 w-[400px]">
             Construyo experiencias digitales excepcionales y accesibles para la
             web.
           </p>
         </div>
-        <div className="w-[200px] overflow-hidden mt-[60px] sm:hidden lg:block">
+        <div className="w-[200px] overflow-hidden mt-[60px] md:hidden sm:hidden lg:block ssm_anchor">
           <ul className="flex flex-col gap-4">
             <li>
               <a
