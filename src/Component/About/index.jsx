@@ -11,15 +11,16 @@ function About() {
         frontend. Aunque aún no tengo experiencia laboral profesional, mi
         entusiasmo y dedicación por aprender y crecer en el mundo de la
         programación son inquebrantables.
-        <br />
-        <br /> A lo largo de mi educación y autodidactismo, he adquirido un
-        sólido conocimiento de HTML, CSS y JavaScript, y he explorado
-        tecnologías como React, para crear interfaces dinámicas y atractivas. Mi
-        camino en el desarrollo web ha sido impulsado por mi amor por la
-        resolución creativa de problemas y el deseo de mejorar la experiencia en
-        línea para los usuarios.
-        <br />
-        <br />
+      </p>
+      <p className="text-white sm:w-full">
+        A lo largo de mi educación y autodidactismo, he adquirido un sólido
+        conocimiento de HTML, CSS y JavaScript, y he explorado tecnologías como
+        React, para crear interfaces dinámicas y atractivas. Mi camino en el
+        desarrollo web ha sido impulsado por mi amor por la resolución creativa
+        de problemas y el deseo de mejorar la experiencia en línea para los
+        usuarios.
+      </p>
+      <p className="text-white sm:w-full">
         Aunque mi viaje aún está en sus primeros pasos, estoy comprometido con
         el proceso de convertirme en un desarrollador destacado.
       </p>

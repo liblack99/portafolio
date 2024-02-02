@@ -1,9 +1,9 @@
 import pdxImg from "../assets/images/pdx.png";
 import movieImg from "../assets/images/movie.png";
-import ticImg from "../assets/images/tic-tac-toe.png";
 import gameImg from "../assets/images/game.png";
 import taskImg from "../assets/images/task.png";
 import shopiImg from "../assets/images/shopi.png";
+import animationImg from "../assets/images/animation.png";
 class ProjectWeb {
   constructor(name, image, description, technologies, page) {
     this.name = name;
@@ -32,13 +32,6 @@ const moviePage = new ProjectWeb(
   "https://liblack99.github.io/Movies-page/"
 );
 
-const ticTacToe = new ProjectWeb(
-  "Tic Tac Toe",
-  ticImg,
-  "Un minijuego de tic tac toé o más comúnmente llamado tres en raya con su respectivo sistema de turnos, funcionalidades y persistencia de datos.",
-  ["React", "Html", "Css", "vite"],
-  "https://liblack99.github.io/Tic-tac-toe/"
-);
 const maze = new ProjectWeb(
   "Boom Maze",
   gameImg,
@@ -50,14 +43,23 @@ const task = new ProjectWeb(
   "Task Manager",
   taskImg,
   "Este proyecto es una app para crear tareas, con un sistema de búsqueda y persistencia de datos.",
-  ["React", "Html", "Css", "vite"],
+  ["React", "Html", "Css", "Vite"],
   "https://liblack99.github.io/Tasks-machine/"
 );
-const ecomerce = new ProjectWeb(
+const ecommerce = new ProjectWeb(
   "Shopi",
   shopiImg,
   "Este proyecto simula un ecommerce de productos variados con sus detalles, carrito de compras filtrado por categoría y persistencia de datos de cuenta de usuarios.",
-  ["React", "Html", "vite", "tailwind", "React router"],
+  ["React", "Html", "Vite", "Tailwind", "React Router"],
   "https://liblack99.github.io/Ecomerce/"
 );
-projects.push(ecomerce, moviePage, task, ticTacToe, pokedex, maze);
+
+const animation = new ProjectWeb(
+  "Bunnylan",
+  animationImg,
+  "Este proyecto es un minijuego animado que consiste en atrapar conejos, cuenta con sistema de puntuacion por cada conejo atrapado esto ara que su velocidad aumente haciendo mas complicado sumar puntos.",
+  ["JavaScript", "Html", "Css"],
+  "https://liblack99.github.io/Animationlan/"
+);
+
+projects.push(ecommerce, moviePage, task, pokedex, maze, animation);
