@@ -51,7 +51,7 @@ const ecommerce = new ProjectWeb(
   shopiImg,
   "Este proyecto simula un ecommerce de productos variados con sus detalles, carrito de compras filtrado por categoría y persistencia de datos de cuenta de usuarios.",
   ["React", "Html", "Vite", "Tailwind", "React Router"],
-  "liblack99.github.io/ecommerce/"
+  "https://liblack99.github.io/ecommerce/"
 );
 
 const animation = new ProjectWeb(
