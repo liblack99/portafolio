@@ -9,7 +9,7 @@ function ProjectsCard({ projects }) {
   return (
     <a href={projects.page} target="_blank">
       <article
-        className="lg:w-[576px]  flex gap-2 justify-start rounded-md hover:bg-[#ffffff08] mb-8 sm:w-[100%] sm:min-w-[300px] "
+        className="lg:w-[576px]  flex gap-2 justify-start rounded-md hover:bg-[#ffffff08] mb-8 sm:w-[100%] ssm_projects"
         onMouseOver={() => setHover(true)}
         onMouseOut={() => setHover(false)}>
         <figure className=" w-[120px] h-[70px] m-2 ">

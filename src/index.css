@@ -87,4 +87,7 @@ html {
   .ssm_anchor {
     display: none;
   }
+  .ssm_projects {
+    width: 100%;
+  }
 }
