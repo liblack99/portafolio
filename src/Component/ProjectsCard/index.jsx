@@ -36,10 +36,10 @@ function ProjectsCard({ projects }) {
               />
             </span>
           </div>
-          <p className="lg:w-[392px] sm:w-full h-[118px] text-white">
+          <p className="lg:w-[392px] sm:w-full  text-white h-auto mb-2">
             {projects.description}
           </p>
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
             {projects.technologies.map((technology, index) => (
               <Technologies key={index} technology={technology} />
             ))}
